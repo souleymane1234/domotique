@@ -7,7 +7,7 @@ export interface AvailabilitySlot {
 }
 
 // Configuration de l'API (à personnaliser selon votre backoffice)
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000/api'
+// const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000/api'
 
 // Fonction à remplacer par un appel API réel
 export async function getAvailableSlots(): Promise<AvailabilitySlot[]> {

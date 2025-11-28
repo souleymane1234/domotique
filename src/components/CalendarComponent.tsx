@@ -52,11 +52,11 @@ export default function CalendarComponent({ selectedDate, onDateSelect, availabl
         value={selectedDate || undefined}
         tileDisabled={tileDisabled}
         tileClassName={tileClassName}
-        locale={fr}
+        locale="fr"
         minDate={new Date()}
         next2Label={null}
         prev2Label={null}
-        formatShortWeekday={(locale, date) => format(date, 'EEE', { locale: fr }).charAt(0).toUpperCase()}
+        formatShortWeekday={(_, date) => format(date, 'EEE', { locale: fr }).charAt(0).toUpperCase()}
       />
     </div>
   )

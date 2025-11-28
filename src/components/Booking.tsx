@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { X, Calendar, MapPin, Clock, User, Phone, Mail, MessageSquare } from 'lucide-react'
+import { X, MapPin, Clock, User, Phone, Mail, MessageSquare } from 'lucide-react'
 import CalendarComponent from './CalendarComponent'
 import { getAvailableSlots, bookAppointment, type AvailabilitySlot } from '../config/availability'
 
