@@ -8,6 +8,15 @@ export default function Hero({ onBookClick }: HeroProps) {
   return (
     <section className="hero">
       <div className="hero-background">
+        <video
+          className="hero-video"
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          <source src="/video/presentation.mp4" type="video/mp4" />
+        </video>
         <div className="hero-overlay"></div>
         <div className="hero-particles"></div>
       </div>
